@@ -63,6 +63,7 @@
         <shiro:hasRole name="Captains">Captains<br/></shiro:hasRole>
         <shiro:hasRole name="Officers">Bad Guys<br/></shiro:hasRole>
         <shiro:hasRole name="Enlisted">Enlisted<br/></shiro:hasRole>
+        <shiro:notAuthenticated>You are not Authenticated!<br/></shiro:notAuthenticated>
     </p>
 
     <h3>Roles you DON'T have:</h3>
@@ -71,6 +72,7 @@
         <shiro:lacksRole name="Captains">Captains<br/></shiro:lacksRole>
         <shiro:lacksRole name="Officers">Officers<br/></shiro:lacksRole>
         <shiro:lacksRole name="Enlisted">Enlisted<br/></shiro:lacksRole>
+        <shiro:authenticated>You are Authenticated!<br/></shiro:authenticated>
     </p>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
